@@ -115,27 +115,27 @@ class TaskCategoriesModal extends React.Component {
                   invalid={categoryNameError}
                   value={newCategory}
                   onChange={(e) => this.modifyNewCategory(e)}
-                  placeholder="Nueva categoría..."/>
+                  placeholder="New category..."/>
                 <InputGroupAddon addonType="append">
                   <Button
                     color="primary"
                     size="sm"
                     disabled={!newCategory}
                     onClick={() => this.addUserCategory(newCategory)}>
-                      Añadir categoría
+                      Add category
                   </Button>
                 </InputGroupAddon>
             </InputGroup>
             <div
               style={{ visibility: !categoryNameError && 'hidden'}}
               className="category-name-feedback text-danger">
-                Ya existe una categoría con ese nombre
+                A category with that name already exists
             </div>
           </div>
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" size="sm" onClick={() => this.setNewCategories()}>Aceptar</Button>
-          <Button color="secondary" size="sm" onClick={() => this.props.close()}>Volver</Button>
+          <Button color="primary" size="sm" onClick={() => this.setNewCategories()}>Confirm</Button>
+          <Button color="secondary" size="sm" onClick={() => this.props.close()}>Go back</Button>
         </ModalFooter>
       </Modal>
       <style jsx>{`
