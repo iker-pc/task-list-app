@@ -1,0 +1,4 @@
+//Action Types
+export const SET_CALENDAR_DAY = "SET_CALENDAR_DAY";
+export const SET_CALENDAR_MONTH = "SET_CALENDAR_MONTH";
+export const SET_CALENDAR_YEAR = "SET_CALENDAR_YEAR";
