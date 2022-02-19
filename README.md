@@ -1,6 +1,6 @@
 # Task List Web Application
 
-This is a simple app that i built to manage my personal tasks. The proyect is abandoned, so the server that was used to persist information between sessions is currently down. However, the project comes with a demo mode that can be used to test the application.
+This is a simple app that i built to manage my personal tasks. The project is abandoned, so the server that was used to persist information between sessions is currently down. However, the project comes with a demo mode that can be used to test the application.
 
 #### App Features
 - Create Tasks and subtaks to be completed in a seletected period of time.
@@ -37,6 +37,9 @@ Some of the frameworks/libraries that have been used to build the application ar
 | [jsonwebtoken] | Library used to manage JSON Web Token (used for authentication purposes) | 8.5.1 |
 | [js-cookie] | JavaScript library to manage cookies.  | 2.2.1 |
 
+## Backend code
+The aplication backend is performed by the [task list manager microservice].
+
 
 [Nextjs]: <https://nextjs.org>
 [axios]: <https://axios-http.com>
@@ -45,5 +48,6 @@ Some of the frameworks/libraries that have been used to build the application ar
 [auth0-js]: <https://auth0.github.io/auth0.js/index.html>
 [jsonwebtoken]: <https://www.npmjs.com/package/jsonwebtoken>
 [js-cookie]: <https://github.com/js-cookie/js-cookie>
+[task list manager microservice]: <https://github.com/iker-pc/task-list-manager-ms>
 
   
