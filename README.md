@@ -38,7 +38,7 @@ Some of the frameworks/libraries that have been used to build the application ar
 | [js-cookie] | JavaScript library to manage cookies.  | 2.2.1 |
 
 ## Backend code
-The aplication backend is performed by the [task list manager microservice].
+The application backend operations are performed by the [task list manager microservice].
 
 
 [Nextjs]: <https://nextjs.org>
