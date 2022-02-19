@@ -38,7 +38,7 @@ Some of the frameworks/libraries that have been used to build the application ar
 | [js-cookie] | JavaScript library to manage cookies.  | 2.2.1 |
 
 ## Backend code
-The application backend operations are performed by the [task list manager microservice] and the [task list auth microservice] The first microservice performs the CRUD operations for the application and uses the second one to verify whether the requested action is legitimate, or not.
+The application backend operations are performed by the [task list manager microservice] and the [task list auth microservice]. The first microservice performs the CRUD operations for the application and uses the second one to verify whether the requested action is legitimate, or not.
 
 
 [Nextjs]: <https://nextjs.org>
